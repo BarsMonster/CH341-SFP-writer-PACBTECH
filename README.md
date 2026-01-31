@@ -1,8 +1,10 @@
-# SFP EEPROM Read/Write Tool
+# SFP EEPROM Read/Write Tool via CH341 / BACBTECH PAC-SCP SFP adapter.
 
 Tool for reading/writing SFP EEPROM via CH341 USB-I2C adapter. These are sold in China ether with or without case for <80$. They apparently have no microcontroller or firmware, which helps us here. 
 Original software was encrypted, so I could not run it in trusted environment. 
 The only missing feature of original software is database of vendor-specific passwords, but for OEM SFP modules it should not be needed.
+
+!(https://github.com/BarsMonster/SFP-writer-BACBTECH/blob/main/photo.jpg?raw=true)
 
 ## Prerequisites
 
